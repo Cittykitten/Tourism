@@ -1,0 +1,310 @@
+
+:root{
+    --main-color:#f0f1f3;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body{
+        background: var(--main-color);
+    }
+    .main{
+        height: 100vh;
+        background-image: url();
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    
+    header{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(234, 185, 27);
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    
+    .logo a{
+        font-size: 30px;
+        margin-left: 20px;
+        color: black;
+    }
+    
+    nav ul{
+        display: flex; 
+    }
+    
+    nav ul li a{
+        color: black;
+        margin: 15px;
+        font-size: 20px;
+    }
+    
+    nav ul li a:hover{
+        color: orange;
+        background-color: white;
+        padding: 5px 15px 5px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    
+    .headerButton button{
+        padding: 5px 30px 5px 30px;
+        border-radius: 10px;
+        background-color: white;
+        border-color: white;
+        border: none;
+        margin-right: 20px;
+    }
+    
+    .headerButton button a{
+        color: rgb(234, 158, 27);
+        font-weight: bold;
+    }
+
+    .headerButton button:hover{
+        background: rgb(255, 217, 147);
+        transition: 2s;
+    }
+
+    .main header .headerButton i{
+        color: white;
+        margin-right: 10px;
+    }
+
+    .fp{
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text{
+        height: 300px;
+        width: 500px;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    /* .text i{
+        color: orange;
+        font-size: 50px;
+    }   */
+
+    .cen{
+        /* z-index: -2; */
+        margin-right: 0;
+    }
+
+    .cen img{
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        object-fit: cover;
+        border: 1px solid brown;
+        border-width: 15px;
+        border-radius: 10px;
+        position: absolute;
+        /* margin-top: 30px; */
+    }
+
+    img{
+        height: 500px;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        object-fit: cover;
+        border-radius: 10px;
+        /* z-index: -1; */
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h1::first-letter{
+        color: orange;
+    }
+
+    .page2{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+
+    .imfull{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        object-fit: contain; 
+    }
+
+    .redStones{
+            height: 400px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            object-fit: cover;
+            border: 1px solid brown;
+            border-width: 15px;
+            border-radius: 10px;
+            margin-left: 0px;
+    }
+
+    .imtext{
+        height: 300px;
+        width: 500px;
+        background-color: white;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    /* .imtext h1 i{
+        color: orange;
+    } */
+
+    h1::first-letter{
+        color: orange;
+    }
+
+    .CE{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .page3 p{
+        text-align: center;
+    }
+
+    /* .page3 img{
+        width: 100%;
+        height: 400px;
+    } */
+/* 
+    .iconContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .iconContent{
+        display: flex;
+    }
+
+    .icon{
+        width: 300px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        margin: 20px;
+    }
+
+    .icon img{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    } */
+
+    .page4 h1{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .cardContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    
+    .card{
+        /* height: 700px; */
+        width: 300px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        margin: 20px;
+    }
+        
+    .card img{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .cardContent{
+        padding: 16px;
+    }
+    
+    .cardContent h3{
+        font-size: 28px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .learnMore{
+        position: relative;
+        top: 20px;
+        margin: 0 0 30px 55rem;
+        padding: 15px 60px;
+    }
+
+    footer{
+        background-color: black;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .col{
+        height: 200px;
+        width: 800px;
+        background-color: rgb(234, 185, 27);
+        border-radius: 50px;
+        margin: 0 0 0 230px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .lane{
+        justify-content: space-between;
+        margin: 20px 20px;
+        align-items: center;
+        position: relative;
+    }
+    
+    h5{
+        color: orange;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    

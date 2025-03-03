@@ -1,0 +1,196 @@
+
+:root{
+    --main-color:#f0f1f3;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body{
+        background: var(--main-color);
+    }
+    /* .main{
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.507)),url(Images/indigenous-person-doing-daily-chores-showcasing-lifestyle.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding-top: 50px;
+    } */
+
+    .main{
+        background-color: aqua;
+    }
+    
+    header{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(234, 185, 27);
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    
+    .logo a{
+        font-size: 30px;
+        margin-left: 20px;
+        color: black;
+    }
+    
+    nav ul{
+        display: flex; 
+    }
+    
+    nav ul li a{
+        color: black;
+        margin: 15px;
+        font-size: 20px;
+    }
+    
+    nav ul li a:hover{
+        color: orange;
+        background-color: white;
+        padding: 5px 15px 5px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    
+    /* .headerButton{
+        padding: 10px 5px 10px 5px;
+    } */
+    
+    .headerButton button{
+        padding: 5px 30px 5px 30px;
+        border-radius: 10px;
+        background-color: white;
+        border-color: white;
+        border: none;
+        margin-right: 20px;
+    }
+    
+    .headerButton button a{
+        color: rgb(234, 158, 27);
+        font-weight: bold;
+    }
+    
+    .headerButton button:hover{
+        background: rgb(255, 217, 147);
+        transition: 2s;
+    }
+    
+    /* .headerButton button a:hover{
+        color: white;
+    } */
+    
+    .main header .headerButton i{
+        color: white;
+        margin-right: 10px;
+    }
+
+    .wrapper{
+        width: 420px;
+        backdrop-filter: blur(10px);
+        color: white;
+        /* background-color: black; */
+    }
+    
+    .wrapper h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .wrapper .inputBox{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        /* background: salmon; */
+        margin: 30px 0;
+    }
+    
+    .inputBox input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 40px;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+    }
+    
+    .inputBox input::placeholder{
+        color: white;
+    }
+    
+    .inputBox i{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translate(-50%);
+        font-size: 20px;
+    }
+    
+    .wrapper .rememberMe{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+    }
+    
+    /* .wrapper form button .btn{
+        padding: 5px 20px 5px 20px;
+    } */
+    
+    .rememberMe label input{
+        accent-color: white;
+        margin-right: 3px;
+    }
+    
+    .rememberMe a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .rememberMe a:hover{
+        text-decoration: underline;
+    }
+
+    footer{
+        background-color: black;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .col{
+        height: 200px;
+        width: 800px;
+        background-color: rgb(234, 185, 27);
+        border-radius: 50px;
+        margin: 0 0 0 230px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .lane{
+        justify-content: space-between;
+        margin: 20px 20px;
+        align-items: center;
+        position: relative;
+    }
+    
+    h5{
+        color: orange;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 0;
+    }

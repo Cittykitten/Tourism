@@ -1,0 +1,377 @@
+
+:root{
+--main-color:#f0f1f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: var(--main-color);
+}
+.main{
+    height: 100vh;
+    background-image: url(Images/ancient-hut-decoration-multi-colored-craft-souvenir-generated-by-ai.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    /* margin-top: -40px; */
+}
+
+header{
+    height:100px;
+    width: 100%;
+    background-color: rgb(234, 185, 27);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+    
+}
+
+.logo a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: black;
+}
+
+nav ul{
+    display: flex; 
+}
+
+nav ul li a{
+    color: black;
+    margin: 15px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: orange;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/* .headerButton{
+    padding: 10px 5px 10px 5px;
+} */
+
+.headerButton button{
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.headerButton button a{
+    color: rgb(234, 158, 27);
+    font-weight: bold;
+}
+
+.headerButton button:hover{
+    background: rgb(255, 217, 147);
+    transition: 2s;
+}
+
+/* .headerButton button a:hover{
+    color: white;
+} */
+
+.main header .headerButton i{
+    color: white;
+    margin-right: 10px;
+}
+
+.text{
+    /* margin-top: 160px; */
+    padding: 200px;
+    padding-left: 20px;
+    /* padding-bottom: 0; */
+}
+
+.main .text p{
+    color: white;
+    font-size: 70px;
+    align-items: center;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-top: 80px; */
+}
+
+.main .text .getStarted{
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+}
+
+.main .text .getStarted a{
+    color: black;
+    font-size: 20px;
+}
+
+.main .text .getStarted a i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+h1::first-letter{
+    color: orange;
+}
+
+.page1{
+  height: 100vh;
+}
+
+.mainContainer{
+    display: flex;
+    padding-top: 20px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.text1{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    /* margin-left: 30px; */
+    padding: 60px 5px;
+    /* background-color: white; */
+}
+
+ .text1 h1{
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.page1 .mainContainer .text1 h1 span{
+    color: orange;
+}
+
+.page1 .mainContainer .images1 img{
+    height: 260px;
+    width: 450px;
+    /* border-radius: 10px; */
+    margin-left: -50px;
+    object-fit: cover;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+
+.words{
+    height: 300px;
+    width: 390px;
+    /* border-radius: 10px; */
+    /* background-color: rgb(235, 232, 232); */
+}
+.statement1{
+    padding: 20px 30px ;
+    /* text-align: center; */
+
+}
+.words p{
+    width: 390px;
+    padding-top: 30px;
+    
+}
+
+.learnMore{
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+    padding: 15px 60px;
+}
+/* .page1 .mainContainer .images1{
+    
+}
+
+.page1 .mainContainer .images1 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page1 .mainContainer .words{
+    left: 0;
+}
+
+.page1 .mainContainer .words .statement1{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(235, 232, 232);
+}
+
+
+.page1 .mainContainer .words .statement1 p{
+    font-size: 20px;
+    align-items: center;
+}
+
+.page1 .mainContainer .words .statement1 .learnMore{
+    padding: 5px 10px 5px 10px;
+    margin: 50px 0 0 50px;
+}
+
+.page1 .mainContainer .words .statement1 .learnMore a{
+    font-size: 20px;
+    color: black;
+} */
+
+.TAD{
+    margin-top: 30px;
+}
+
+.Tad{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card{
+    /* height: 700px; */
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+/* .innerContent{
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* .innerContent img{
+    height: 300px;
+    width: 200px;
+    margin: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+} */
+
+.card img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.cardContent{
+    padding: 16px;
+}
+
+.cardContent h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.cardContent p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.cardContent .readMore{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(234, 158, 27);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.lastPage{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 60rem;
+    background-image:linear-gradient(white, white, rgba(255, 255, 255, 0)), url(Images/street-thailand-nature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.statement2{
+    position: relative;
+    justify-items: center;
+    color: black;
+}
+
+.statement2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+
+.col{
+    height: 200px;
+    width: 800px;
+    background-color: rgb(234, 185, 27);
+    border-radius: 50px;
+    margin: 0 0 0 230px;
+    display: flex;
+    justify-content: center;
+}
+
+.lane{
+    justify-content: space-between;
+    margin: 20px 20px;
+    align-items: center;
+    position: relative;
+}
+
+h5{
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
