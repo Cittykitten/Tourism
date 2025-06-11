@@ -375,3 +375,182 @@ h5{
     padding-bottom: 0;
 }
 
+/* Add these styles to your existing CSS */
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .main .text p {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainContainer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .text1, .images1, .words {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .images1 img {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .words p {
+        width: 100%;
+    }
+    
+    .col {
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main .text {
+        padding: 150px 20px;
+    }
+    
+    .main .text p {
+        font-size: 40px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .headerButton {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .main .text p {
+        font-size: 30px;
+    }
+    
+    .logo a {
+        font-size: 20px;
+    }
+    
+    .lastPage {
+        margin-top: 40rem;
+    }
+}
+
+/* Candybox Menu Styles */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    z-index: 1000;
+}
+
+.hamburger .bar {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.hamburger .bar:nth-child(1) {
+    top: 10px;
+    left: 5px;
+}
+
+.hamburger .bar:nth-child(2) {
+    top: 20px;
+    left: 5px;
+    opacity: 1;
+}
+
+.hamburger .bar:nth-child(3) {
+    top: 30px;
+    left: 5px;
+}
+
+/* Candybox active state */
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    background-color: white;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+    background-color: white;
+}
+
+/* Mobile menu */
+.nav-men {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: rgba(234, 185, 27, 0.95);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.5s ease;
+    z-index: 999;
+    padding-top: 100px;
+}
+
+.nav-men.active {
+    right: 0;
+}
+
+.nav-item {
+    margin: 20px 0;
+}
+
+.nav-item a {
+    font-size: 24px;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover {
+    background-color: white;
+    color: orange;
+}
+
+/* Show hamburger on mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    header {
+        justify-content: space-between;
+    }
+}
+
